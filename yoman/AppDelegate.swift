@@ -8,14 +8,30 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        UIApplication.shared.statusBarStyle = .lightContent
+        UIApplication.shared.statusBarStyle = .lightContent
+        let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
+        if statusBar.responds(to: #selector(setter: UIView.backgroundColor)){
+            statusBar.backgroundColor = UIColor(red: 55.0/255.0, green: 71.0/255.0, blue: 79.0/255.0, alpha: 1.0)
+        }
+        //AIzaSyC3DWMJLZPvRp36Wnxb0-AhxU3xq1kDau4
+
+        GMSServices.provideAPIKey("AIzaSyC3DWMJLZPvRp36Wnxb0-AhxU3xq1kDau4")
+//GMSPlacesClient.provideAPIKey("AIzaSyC3DWMJLZPvRp36Wnxb0-AhxU3xq1kDau4")
+
+
         // Override point for customization after application launch.
         return true
     }

@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09155A5E2FAC98B2683B2B72 /* Pods_yoman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1439B7E7B217E5822A2CBDA /* Pods_yoman.framework */; };
+		6B25CF16E13631E421FE4DC1 /* Pods_yomanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92840003996FB0415121B7E /* Pods_yomanUITests.framework */; };
+		7A13193F1FD5893C009840C5 /* FutureEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13193E1FD5893C009840C5 /* FutureEvent.swift */; };
+		7A1319411FD58956009840C5 /* FutureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1319401FD58956009840C5 /* FutureCell.swift */; };
+		7A2AF9561FD91DAB007F7FB7 /* eventWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2AF9551FD91DAB007F7FB7 /* eventWebView.swift */; };
 		7A37D33A1FC57CA500FFE010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D3391FC57CA500FFE010 /* AppDelegate.swift */; };
-		7A37D33C1FC57CA500FFE010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D33B1FC57CA500FFE010 /* ViewController.swift */; };
 		7A37D33F1FC57CA500FFE010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A37D33D1FC57CA500FFE010 /* Main.storyboard */; };
 		7A37D3421FC57CA500FFE010 /* yoman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D3401FC57CA500FFE010 /* yoman.xcdatamodeld */; };
 		7A37D3441FC57CA500FFE010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A37D3431FC57CA500FFE010 /* Assets.xcassets */; };
 		7A37D3471FC57CA500FFE010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A37D3451FC57CA500FFE010 /* LaunchScreen.storyboard */; };
 		7A37D3521FC57CA500FFE010 /* yomanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D3511FC57CA500FFE010 /* yomanTests.swift */; };
 		7A37D35D1FC57CA500FFE010 /* yomanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D35C1FC57CA500FFE010 /* yomanUITests.swift */; };
+		7A37D36B1FC5ABB100FFE010 /* welcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D36A1FC5ABB100FFE010 /* welcomeScreen.swift */; };
+		7A646A221FCEED3100C79FFB /* FutureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A646A211FCEED3100C79FFB /* FutureDataSource.swift */; };
+		7A7B550D1FCE949000737826 /* Account .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B550C1FCE949000737826 /* Account .swift */; };
+		7A7B550F1FCE950A00737826 /* futureEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B550E1FCE950A00737826 /* futureEvent.swift */; };
+		7A7B55121FCE98F200737826 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B55111FCE98F200737826 /* webViewController.swift */; };
+		7A7B55141FCE9BDA00737826 /* AccountsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B55131FCE9BDA00737826 /* AccountsCollectionViewController.swift */; };
+		7A7B55161FCE9BF300737826 /* AccCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B55151FCE9BF300737826 /* AccCollectionViewCell.swift */; };
+		7A7B55181FCE9DDF00737826 /* accountsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B55171FCE9DDF00737826 /* accountsDataSource.swift */; };
+		7A9B98361FD55CDF0060FB7E /* NewsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B98351FD55CDF0060FB7E /* NewsSource.swift */; };
+		7AC7FC451FC70B2F00EB1398 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7FC441FC70B2F00EB1398 /* loginViewController.swift */; };
+		7AD15F1F1FCC25E100F51BCB /* verifyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD15F1E1FCC25E100F51BCB /* verifyTableViewController.swift */; };
+		7AE6DD941FDE90AA006C4EFD /* descriptionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6DD931FDE90AA006C4EFD /* descriptionEvent.swift */; };
+		7AF306F31FD005F300BA92F5 /* AlmofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF306F21FD005F300BA92F5 /* AlmofireService.swift */; };
+		D2CCC251F25AC2CDDA4FFB30 /* Pods_yomanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFF30C1C7C6ED36687C149 /* Pods_yomanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24AFF30C1C7C6ED36687C149 /* Pods_yomanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yomanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3002F4EDF82EBAE0ABF3274F /* Pods-yomanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yomanTests/Pods-yomanTests.release.xcconfig"; sourceTree = "<group>"; };
+		577893BEDF0D3A103A084E77 /* Pods-yomanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yomanUITests/Pods-yomanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A13193E1FD5893C009840C5 /* FutureEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureEvent.swift; sourceTree = "<group>"; };
+		7A1319401FD58956009840C5 /* FutureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCell.swift; sourceTree = "<group>"; };
+		7A2AF9551FD91DAB007F7FB7 /* eventWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventWebView.swift; sourceTree = "<group>"; };
 		7A37D3361FC57CA500FFE010 /* yoman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A37D3391FC57CA500FFE010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A37D33B1FC57CA500FFE010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A37D33E1FC57CA500FFE010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A37D3411FC57CA500FFE010 /* yoman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yoman.xcdatamodel; sourceTree = "<group>"; };
 		7A37D3431FC57CA500FFE010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +72,25 @@
 		7A37D3581FC57CA500FFE010 /* yomanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yomanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A37D35C1FC57CA500FFE010 /* yomanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yomanUITests.swift; sourceTree = "<group>"; };
 		7A37D35E1FC57CA500FFE010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A37D36A1FC5ABB100FFE010 /* welcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeScreen.swift; sourceTree = "<group>"; };
+		7A646A211FCEED3100C79FFB /* FutureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDataSource.swift; sourceTree = "<group>"; };
+		7A7B550C1FCE949000737826 /* Account .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account .swift"; sourceTree = "<group>"; };
+		7A7B550E1FCE950A00737826 /* futureEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = futureEvent.swift; sourceTree = "<group>"; };
+		7A7B55111FCE98F200737826 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		7A7B55131FCE9BDA00737826 /* AccountsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsCollectionViewController.swift; sourceTree = "<group>"; };
+		7A7B55151FCE9BF300737826 /* AccCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A7B55171FCE9DDF00737826 /* accountsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountsDataSource.swift; sourceTree = "<group>"; };
+		7A9B98351FD55CDF0060FB7E /* NewsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSource.swift; sourceTree = "<group>"; };
+		7AC7FC441FC70B2F00EB1398 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		7AD15F1E1FCC25E100F51BCB /* verifyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyTableViewController.swift; sourceTree = "<group>"; };
+		7AE6DD931FDE90AA006C4EFD /* descriptionEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionEvent.swift; sourceTree = "<group>"; };
+		7AF306F21FD005F300BA92F5 /* AlmofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmofireService.swift; sourceTree = "<group>"; };
+		80063340275FABF9E1BEB8B2 /* Pods-yomanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yomanUITests/Pods-yomanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1439B7E7B217E5822A2CBDA /* Pods_yoman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yoman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E512D417FE61145A37532 /* Pods-yomanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yomanTests/Pods-yomanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C130CA91DFB07360B2C7A83B /* Pods-yoman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoman.release.xcconfig"; path = "Pods/Target Support Files/Pods-yoman/Pods-yoman.release.xcconfig"; sourceTree = "<group>"; };
+		E92840003996FB0415121B7E /* Pods_yomanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yomanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF06E36378D86D4DC7547F9 /* Pods-yoman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yoman/Pods-yoman.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09155A5E2FAC98B2683B2B72 /* Pods_yoman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CCC251F25AC2CDDA4FFB30 /* Pods_yomanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +114,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B25CF16E13631E421FE4DC1 /* Pods_yomanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1735EE38DB20F6DEC3235A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF06E36378D86D4DC7547F9 /* Pods-yoman.debug.xcconfig */,
+				C130CA91DFB07360B2C7A83B /* Pods-yoman.release.xcconfig */,
+				B61E512D417FE61145A37532 /* Pods-yomanTests.debug.xcconfig */,
+				3002F4EDF82EBAE0ABF3274F /* Pods-yomanTests.release.xcconfig */,
+				577893BEDF0D3A103A084E77 /* Pods-yomanUITests.debug.xcconfig */,
+				80063340275FABF9E1BEB8B2 /* Pods-yomanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A1F0B5F1FD9345E009EBD3E /* storyBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7A37D33D1FC57CA500FFE010 /* Main.storyboard */,
+				7A37D3451FC57CA500FFE010 /* LaunchScreen.storyboard */,
+			);
+			path = storyBoards;
+			sourceTree = "<group>";
+		};
 		7A37D32D1FC57CA500FFE010 = {
 			isa = PBXGroup;
 			children = (
+				7A1F0B5F1FD9345E009EBD3E /* storyBoards */,
+				7A7B55101FCE959800737826 /* dataSource */,
+				7A7B550B1FCE945900737826 /* models */,
 				7A37D3381FC57CA500FFE010 /* yoman */,
 				7A37D3501FC57CA500FFE010 /* yomanTests */,
 				7A37D35B1FC57CA500FFE010 /* yomanUITests */,
 				7A37D3371FC57CA500FFE010 /* Products */,
+				1735EE38DB20F6DEC3235A7B /* Pods */,
+				FBD1AF44B07715B2B1628469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +171,20 @@
 		7A37D3381FC57CA500FFE010 /* yoman */ = {
 			isa = PBXGroup;
 			children = (
+				7A37D36A1FC5ABB100FFE010 /* welcomeScreen.swift */,
 				7A37D3391FC57CA500FFE010 /* AppDelegate.swift */,
-				7A37D33B1FC57CA500FFE010 /* ViewController.swift */,
-				7A37D33D1FC57CA500FFE010 /* Main.storyboard */,
-				7A37D3431FC57CA500FFE010 /* Assets.xcassets */,
-				7A37D3451FC57CA500FFE010 /* LaunchScreen.storyboard */,
+				7AC7FC441FC70B2F00EB1398 /* loginViewController.swift */,
+				7AD15F1E1FCC25E100F51BCB /* verifyTableViewController.swift */,
+				7A7B55131FCE9BDA00737826 /* AccountsCollectionViewController.swift */,
+				7A7B55151FCE9BF300737826 /* AccCollectionViewCell.swift */,
+				7A7B55111FCE98F200737826 /* webViewController.swift */,
+				7A13193E1FD5893C009840C5 /* FutureEvent.swift */,
+				7A2AF9551FD91DAB007F7FB7 /* eventWebView.swift */,
+				7A1319401FD58956009840C5 /* FutureCell.swift */,
+				7AE6DD931FDE90AA006C4EFD /* descriptionEvent.swift */,
 				7A37D3481FC57CA500FFE010 /* Info.plist */,
 				7A37D3401FC57CA500FFE010 /* yoman.xcdatamodeld */,
+				7A37D3431FC57CA500FFE010 /* Assets.xcassets */,
 			);
 			path = yoman;
 			sourceTree = "<group>";
@@ -128,6 +207,36 @@
 			path = yomanUITests;
 			sourceTree = "<group>";
 		};
+		7A7B550B1FCE945900737826 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B550C1FCE949000737826 /* Account .swift */,
+				7A7B550E1FCE950A00737826 /* futureEvent.swift */,
+				7A9B98351FD55CDF0060FB7E /* NewsSource.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7A7B55101FCE959800737826 /* dataSource */ = {
+			isa = PBXGroup;
+			children = (
+				7A646A211FCEED3100C79FFB /* FutureDataSource.swift */,
+				7A7B55171FCE9DDF00737826 /* accountsDataSource.swift */,
+				7AF306F21FD005F300BA92F5 /* AlmofireService.swift */,
+			);
+			path = dataSource;
+			sourceTree = "<group>";
+		};
+		FBD1AF44B07715B2B1628469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1439B7E7B217E5822A2CBDA /* Pods_yoman.framework */,
+				24AFF30C1C7C6ED36687C149 /* Pods_yomanTests.framework */,
+				E92840003996FB0415121B7E /* Pods_yomanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A37D3611FC57CA500FFE010 /* Build configuration list for PBXNativeTarget "yoman" */;
 			buildPhases = (
+				C94195FD9BB12C45186293F8 /* [CP] Check Pods Manifest.lock */,
 				7A37D3321FC57CA500FFE010 /* Sources */,
 				7A37D3331FC57CA500FFE010 /* Frameworks */,
 				7A37D3341FC57CA500FFE010 /* Resources */,
+				B2819AC25156D0F923AA3828 /* [CP] Embed Pods Frameworks */,
+				8EA9404AD98C62B06BE63E82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A37D3641FC57CA500FFE010 /* Build configuration list for PBXNativeTarget "yomanTests" */;
 			buildPhases = (
+				96B53F3B8014E4E4D5C27892 /* [CP] Check Pods Manifest.lock */,
 				7A37D3491FC57CA500FFE010 /* Sources */,
 				7A37D34A1FC57CA500FFE010 /* Frameworks */,
 				7A37D34B1FC57CA500FFE010 /* Resources */,
+				7DD4B3068011D1A7349D5EB9 /* [CP] Embed Pods Frameworks */,
+				E18F039A20027292998495FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A37D3671FC57CA500FFE010 /* Build configuration list for PBXNativeTarget "yomanUITests" */;
 			buildPhases = (
+				5EC4421BDB174D9248B2C09F /* [CP] Check Pods Manifest.lock */,
 				7A37D3541FC57CA500FFE010 /* Sources */,
 				7A37D3551FC57CA500FFE010 /* Frameworks */,
 				7A37D3561FC57CA500FFE010 /* Resources */,
+				BA747AA30D5102BA3B8026A1 /* [CP] Embed Pods Frameworks */,
+				71D7AC91B04C9E95B8A42D24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +375,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EC4421BDB174D9248B2C09F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yomanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D7AC91B04C9E95B8A42D24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yomanUITests/Pods-yomanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD4B3068011D1A7349D5EB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yomanTests/Pods-yomanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA9404AD98C62B06BE63E82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yoman/Pods-yoman-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yoman/Pods-yoman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B53F3B8014E4E4D5C27892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yomanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2819AC25156D0F923AA3828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yoman/Pods-yoman-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yoman/Pods-yoman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA747AA30D5102BA3B8026A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yomanUITests/Pods-yomanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94195FD9BB12C45186293F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yoman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18F039A20027292998495FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yomanTests/Pods-yomanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A37D3321FC57CA500FFE010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A37D33C1FC57CA500FFE010 /* ViewController.swift in Sources */,
+				7AC7FC451FC70B2F00EB1398 /* loginViewController.swift in Sources */,
+				7A7B550F1FCE950A00737826 /* futureEvent.swift in Sources */,
+				7A9B98361FD55CDF0060FB7E /* NewsSource.swift in Sources */,
+				7A7B55141FCE9BDA00737826 /* AccountsCollectionViewController.swift in Sources */,
+				7A13193F1FD5893C009840C5 /* FutureEvent.swift in Sources */,
+				7A7B55161FCE9BF300737826 /* AccCollectionViewCell.swift in Sources */,
+				7A1319411FD58956009840C5 /* FutureCell.swift in Sources */,
+				7AE6DD941FDE90AA006C4EFD /* descriptionEvent.swift in Sources */,
+				7AF306F31FD005F300BA92F5 /* AlmofireService.swift in Sources */,
 				7A37D33A1FC57CA500FFE010 /* AppDelegate.swift in Sources */,
+				7A7B550D1FCE949000737826 /* Account .swift in Sources */,
+				7A2AF9561FD91DAB007F7FB7 /* eventWebView.swift in Sources */,
+				7A7B55181FCE9DDF00737826 /* accountsDataSource.swift in Sources */,
+				7A646A221FCEED3100C79FFB /* FutureDataSource.swift in Sources */,
+				7A37D36B1FC5ABB100FFE010 /* welcomeScreen.swift in Sources */,
+				7A7B55121FCE98F200737826 /* webViewController.swift in Sources */,
+				7AD15F1F1FCC25E100F51BCB /* verifyTableViewController.swift in Sources */,
 				7A37D3421FC57CA500FFE010 /* yoman.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +717,11 @@
 		};
 		7A37D3621FC57CA500FFE010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF06E36378D86D4DC7547F9 /* Pods-yoman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SECJRR3N9B;
 				INFOPLIST_FILE = yoman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yoman.yoman;
@@ -442,9 +733,11 @@
 		};
 		7A37D3631FC57CA500FFE010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C130CA91DFB07360B2C7A83B /* Pods-yoman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SECJRR3N9B;
 				INFOPLIST_FILE = yoman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yoman.yoman;
@@ -456,6 +749,7 @@
 		};
 		7A37D3651FC57CA500FFE010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61E512D417FE61145A37532 /* Pods-yomanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +766,7 @@
 		};
 		7A37D3661FC57CA500FFE010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3002F4EDF82EBAE0ABF3274F /* Pods-yomanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +783,7 @@
 		};
 		7A37D3681FC57CA500FFE010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577893BEDF0D3A103A084E77 /* Pods-yomanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +799,7 @@
 		};
 		7A37D3691FC57CA500FFE010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80063340275FABF9E1BEB8B2 /* Pods-yomanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
