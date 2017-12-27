@@ -1,4 +1,4 @@
-platform :ios, '11.0'
+platform :ios, '10.0'
 
 target 'yoman' do
 
@@ -6,7 +6,8 @@ use_frameworks!
  pod 'Alamofire', '4.4.0'
  pod 'GoogleMaps'
  pod 'GooglePlaces'
- pod 'LGSideMenuController'
+ pod 'SideMenu'
+
 
   # Pods for yoman
 
